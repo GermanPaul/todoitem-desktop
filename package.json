@@ -1,0 +1,21 @@
+{
+  "name": "todo-desktop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/desktop-topic-receiver-demo.ts",
+  "scripts": {
+    "start": "ts-node src/desktop-topic-receiver-demo.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mssql": "^9.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@azure/service-bus": "^7.9.3",
+    "dotenv": "^16.3.1",
+    "mssql": "^10.0.1"
+  }
+}
